@@ -1,13 +1,14 @@
 package Domain;
 
 public class post {
-    private String id;
-    private String text;
-    private String image;
-    private String favorites;
-    private String read;
-    private String like;
-    private String comment;
-    private String share;
-    private String view;
+    private String id; //номер владельца записи
+    private String data; //дата поста
+    private String text; //название поста
+    private String image; //картинка поста
+    private String favorites; //кнопка избранное
+    private String read; //кнопка читать
+    private String like; //лайки
+    private String comment; //коментарии
+    private String share; //репост
+    private String view; //просмотры
 }
