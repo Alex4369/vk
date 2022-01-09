@@ -1,0 +1,6 @@
+domain\CommentsInfo.class
+domain\Post.class
+domain\SharesInfo.class
+domain\ViewsInfo.class
+domain\LikesInfo.class
+manager\ManagerPost.class

@@ -1,10 +1,11 @@
 package manager;
 
-import Domain.post;
+import domain.Post;
 
 public class ManagerPost {
-    private post[] posts;
-    public  post [] getPostsFeed() {
+    private Post[] posts;
+    public  Post[] getPostsFeed() {
 
+        return null;
     }
 }
