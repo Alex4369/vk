@@ -2,10 +2,15 @@ package manager;
 
 import domain.Post;
 
-public class ManagerPost {
-    private Post[] posts;
-    public  Post[] getPostsFeed() {
+public class PageManager {
+    private Post postManager;
+public String postSearch() {
+    Post[] posts = postManager.getsPostsForFeed();
 
         return null;
     }
-}
+    private Post postManager;
+    public String postDelete() {
+        Post[] posts = postManager.getsPostsForFeed();
+        return null;
+}}

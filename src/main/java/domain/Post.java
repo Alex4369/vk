@@ -29,5 +29,9 @@ public class Post {
     private String marketAsAds;//поле из документации
     private String isFavorite;//поле из документации
     private String postPonedId;//поле из документации
+
+    public Post[] getsPostsForFeed() {
+        return null;
+    }
     //+get/set на все поля
 }
